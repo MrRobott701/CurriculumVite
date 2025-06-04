@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Datos.Migrations
 {
-    [DbContext(typeof(D_ContextoBD))]
+    [DbContext(typeof(ContextoBD))]
     [Migration("20250425193339_DefaultDatabaseCreation")]
     partial class DefaultDatabaseCreation
     {

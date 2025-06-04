@@ -6,38 +6,38 @@ using Datos.IRepositorios.CurriculumVite;
 
 namespace Servicios.Repositorios.CurriculumVite
 {
-    public class ContactoDocenteServicios : IRepositorios.CurriculumVite.ISRepositorioContactoDocente
+    public class ContactoDocenteServicios : ISRepositorioContactoDocente
     {
-        private readonly IRepositorios.CurriculumVite.ISRepositorioContactoDocente _repo;
+        private readonly IRepositorioContactoDocente _repoDatos;
 
-        public ContactoDocenteServicios(IRepositorios.CurriculumVite.ISRepositorioContactoDocente repo)
+        public ContactoDocenteServicios(IRepositorioContactoDocente repoDatos)
         {
-            _repo = repo;
+            _repoDatos = repoDatos;
         }
 
         public async Task<IEnumerable<E_ContactoDocente>> GetAllAsync()
         {
-            return await _repo.GetAllAsync();
+            return await _repoDatos.GetAllAsync();
         }
 
         public async Task<E_ContactoDocente> GetByIdAsync(int id)
         {
-            return await _repo.GetByIdAsync(id);
+            return await _repoDatos.GetByIdAsync(id);
         }
 
         public async Task AddAsync(E_ContactoDocente entity)
         {
-            await _repo.AddAsync(entity);
+            await _repoDatos.AddAsync(entity);
         }
 
         public async Task UpdateAsync(E_ContactoDocente entity)
         {
-            await _repo.UpdateAsync(entity);
+            await _repoDatos.UpdateAsync(entity);
         }
 
         public async Task DeleteAsync(int id)
         {
-            await _repo.DeleteAsync(id);
+            await _repoDatos.DeleteAsync(id);
         }
     }
 }

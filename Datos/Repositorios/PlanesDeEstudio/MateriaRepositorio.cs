@@ -5,9 +5,9 @@ using Entidades.Modelos.PlanesDeEstudio.Materias;
 
 namespace Datos.Repositorios.PlanesDeEstudio
 {
-  public class MateriaRepositorio(D_ContextoBD contextoBD) : IMateriaRepositorio
+  public class MateriaRepositorio(ContextoBD contextoBD) : IMateriaRepositorio
   {
-    private readonly D_ContextoBD _contextoBD = contextoBD;
+    private readonly ContextoBD _contextoBD = contextoBD;
 
     public async Task<ResultadoAcciones<E_Materia>> InsertarMateria(E_Materia materia)
     {

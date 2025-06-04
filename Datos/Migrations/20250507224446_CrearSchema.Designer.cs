@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Datos.Migrations
 {
-    [DbContext(typeof(D_ContextoBD))]
+    [DbContext(typeof(ContextoBD))]
     [Migration("20250507224446_CrearSchema")]
     partial class CrearSchema
     {

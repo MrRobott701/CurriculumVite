@@ -8,9 +8,9 @@ namespace Datos.Repositorios.CurriculumVite
 {
     public class ExperienciaRepositorio : IRepositorioExperiencia
     {
-        private readonly CurriculumViteContext _context;
+        private readonly ContextoBD _context;
 
-        public ExperienciaRepositorio(CurriculumViteContext context)
+        public ExperienciaRepositorio(ContextoBD context)
         {
             _context = context;
         }

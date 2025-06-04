@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "Presentacion/1.0.0": {
         "dependencies": {
+          "Datos": "1.0.0",
           "Entidades": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "9.0.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.4",
@@ -1099,7 +1100,7 @@
         },
         "runtime": {
           "Datos.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1112,7 +1113,7 @@
         },
         "runtime": {
           "Entidades.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1124,7 +1125,7 @@
         },
         "runtime": {
           "Negocios.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1132,12 +1133,13 @@
       "Servicios/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
+          "Datos": "1.0.0",
           "Entidades": "1.0.0",
           "Negocios": "1.0.0"
         },
         "runtime": {
           "Servicios.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

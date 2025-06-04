@@ -8,9 +8,9 @@ namespace Datos.Repositorios.CurriculumVite
 {
     public class DistincionRepositorio : IRepositorioDistincion
     {
-        private readonly CurriculumViteContext _context;
+        private readonly ContextoBD _context;
 
-        public DistincionRepositorio(CurriculumViteContext context)
+        public DistincionRepositorio(ContextoBD context)
         {
             _context = context;
         }

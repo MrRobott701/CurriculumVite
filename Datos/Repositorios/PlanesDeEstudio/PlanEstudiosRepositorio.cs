@@ -6,9 +6,9 @@ using Entidades.Modelos.PlanesDeEstudio.PlanEstudios;
 
 namespace Datos.Repositorios.PlanesDeEstudio
 {
-  public class PlanEstudioRepositorio(D_ContextoBD contextoBD) : IPlanEstudioRepositorio
+  public class PlanEstudioRepositorio(ContextoBD contextoBD) : IPlanEstudioRepositorio
   {
-    private readonly D_ContextoBD _contextoBD = contextoBD;
+    private readonly ContextoBD _contextoBD = contextoBD;
 
     public async Task<ResultadoAcciones<E_PlanEstudio>> InsertarPlanEstudio(E_PlanEstudio planEstudio)
     {

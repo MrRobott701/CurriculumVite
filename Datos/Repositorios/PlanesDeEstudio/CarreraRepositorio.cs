@@ -5,9 +5,9 @@ using Entidades.Modelos.PlanesDeEstudio.Carreras;
 
 namespace Datos.Repositorios.PlanesDeEstudio
 {
-  public class CarreraRepositorio(D_ContextoBD contextoBD) : ICarreraRepositorio
+  public class CarreraRepositorio(ContextoBD contextoBD) : ICarreraRepositorio
   {
-    private readonly D_ContextoBD _contextoBD = contextoBD;
+    private readonly ContextoBD _contextoBD = contextoBD;
 
     public async Task<ResultadoAcciones<E_Carrera>> InsertarCarrera(E_Carrera carrera)
     {

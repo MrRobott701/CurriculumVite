@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Datos.Repositorios.PlanesDeEstudio
 {
-  public class EtapasRepositorio(D_ContextoBD contextoBD) : IEtapasRepositorio
+  public class EtapasRepositorio(ContextoBD contextoBD) : IEtapasRepositorio
   {
-    private readonly D_ContextoBD _contextoBD = contextoBD;
+    private readonly ContextoBD _contextoBD = contextoBD;
     public async Task<IEnumerable<E_Etapa>> ObtenerTodasLasEtapas()
     {
       return await _contextoBD.Etapas

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Datos.Migrations
 {
-    [DbContext(typeof(D_ContextoBD))]
+    [DbContext(typeof(ContextoBD))]
     partial class D_ContextoBDModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
