@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<base href="/" />
+	<link rel="stylesheet" href="@Assets["lib/bootstrap/dist/css/bootstrap.min.css"]" />
+
+	@* CDN para el uso de Quill *@
+	<link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet" />
+	@* CDN para el uso de toastr *@
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+	@* CDN para el uso de SweetAlert *@
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+	<link rel="stylesheet" href="@Assets["app.css"]" />
+	<link rel="stylesheet" href="@Assets["Presentacion.styles.css"]" />
+
+	@* CDN para el uso de Íconos *@
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	@* CDN para el uso de tema 'Snow' de Quill *@
+	<link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
+
+	<ImportMap />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<HeadOutlet @rendermode="PageRenderMode" />
+</head>
+
+<body>
+	<Routes @rendermode="PageRenderMode" />
+
+	@* Zona de Java Script *@	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	@* CDN para el uso de general de JavaScript *@
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	@* CDN para el uso de Quill *@
+	<script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+	<script src="js/quillInterop.js"></script>
+	@* CDN para el uso de toastr *@
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	@* CDN para el uso de SweetAlert *@
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+	@* CDN para el uso de Quill *@
+	<script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+
+	<script src="/lib/toastr.js"></script>
+	<script src="/lib/SweetAlert.js"></script>
+	<script src="_framework/blazor.web.js"></script>
+</body>
+
+</html>
+
+@code {
+	[CascadingParameter]
+	private HttpContext HttpContext { get; set; } = default!;
+
+	private IComponentRenderMode? PageRenderMode =>
+			HttpContext.AcceptsInteractiveRouting() ? InteractiveServer : null;
+}

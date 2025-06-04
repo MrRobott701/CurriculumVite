@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Presentacion.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Presentacion.7lj2bxrrv8.bundle.scp.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\BannerPlanesDeEstudio.png",
+      "PackagePath": "staticwebassets\\Imagenes\\BannerPlanesDeEstudio.png"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\CV.png",
+      "PackagePath": "staticwebassets\\Imagenes\\CV.png"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\ControlEscolar.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\ControlEscolar.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\GestionSalidas.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\GestionSalidas.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\GestionUsuario.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\GestionUsuario.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\HU.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HU.png"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\NuevoUsuario.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\NuevoUsuario.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\Periodos.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Periodos.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\Permisos.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes\\Permisos.jpeg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\PlanesEstudio.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\PlanesEstudio.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\RecuperaPassword.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\RecuperaPassword.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\ResetPassword.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\ResetPassword.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\carreras.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\carreras.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\logo_fiad.png",
+      "PackagePath": "staticwebassets\\Imagenes\\logo_fiad.png"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\logo_uabc.gif",
+      "PackagePath": "staticwebassets\\Imagenes\\logo_uabc.gif"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\Imagenes\\materias.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\materias.jpg"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\PUAS\\33541.pdf",
+      "PackagePath": "staticwebassets\\PUAS\\33541.pdf"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\PUAS\\36276.pdf",
+      "PackagePath": "staticwebassets\\PUAS\\36276.pdf"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\PUAS\\36279.pdf",
+      "PackagePath": "staticwebassets\\PUAS\\36279.pdf"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\PUAS\\40003.pdf",
+      "PackagePath": "staticwebassets\\PUAS\\40003.pdf"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\PUAS\\40005.pdf",
+      "PackagePath": "staticwebassets\\PUAS\\40005.pdf"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\PUAS\\40007.pdf",
+      "PackagePath": "staticwebassets\\PUAS\\40007.pdf"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\js\\quillInterop.js",
+      "PackagePath": "staticwebassets\\js\\quillInterop.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\PUAS\\40003.pdf",
+      "PackagePath": "staticwebassets\\lib\\PUAS\\40003.pdf"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\SweetAlert.js",
+      "PackagePath": "staticwebassets\\lib\\SweetAlert.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\quillInterop.js",
+      "PackagePath": "staticwebassets\\lib\\quillInterop.js"
+    },
+    {
+      "Id": "H:\\CEF-365\\Presentacion\\wwwroot\\lib\\toastr.js",
+      "PackagePath": "staticwebassets\\lib\\toastr.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Presentacion.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Presentacion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Presentacion.props",
+      "PackagePath": "build\\Presentacion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Presentacion.props",
+      "PackagePath": "buildMultiTargeting\\Presentacion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Presentacion.props",
+      "PackagePath": "buildTransitive\\Presentacion.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

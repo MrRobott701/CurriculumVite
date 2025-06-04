@@ -1,0 +1,87 @@
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\bin\Debug\net9.0\Negocios.deps.json
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\bin\Debug\net9.0\Negocios.dll
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\bin\Debug\net9.0\Negocios.pdb
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\bin\Debug\net9.0\Datos.dll
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\bin\Debug\net9.0\Entidades.dll
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\bin\Debug\net9.0\Datos.pdb
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\bin\Debug\net9.0\Entidades.pdb
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.AssemblyReference.cache
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfoInputs.cache
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfo.cs
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.sourcelink.json
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.Up2Date
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.dll
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\refint\Negocios.dll
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\Negocios.pdb
+C:\Users\Acer Ryzen\Documents\BlazorProjects\CEF-365\Negocios\obj\Debug\net9.0\ref\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\bin\Debug\net9.0\Negocios.deps.json
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\bin\Debug\net9.0\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\bin\Debug\net9.0\Negocios.pdb
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\bin\Debug\net9.0\Datos.dll
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\bin\Debug\net9.0\Entidades.dll
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\bin\Debug\net9.0\Datos.pdb
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\bin\Debug\net9.0\Entidades.pdb
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.AssemblyReference.cache
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfoInputs.cache
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfo.cs
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.sourcelink.json
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.Up2Date
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\refint\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\Negocios.pdb
+C:\Users\vvmejia\Desktop\CEF-365_Jalid\CEF-365\Negocios\obj\Debug\net9.0\ref\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\bin\Debug\net9.0\Negocios.deps.json
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\bin\Debug\net9.0\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\bin\Debug\net9.0\Negocios.pdb
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\bin\Debug\net9.0\Datos.dll
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\bin\Debug\net9.0\Entidades.dll
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\bin\Debug\net9.0\Datos.pdb
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\bin\Debug\net9.0\Entidades.pdb
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.AssemblyReference.cache
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfoInputs.cache
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfo.cs
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.Up2Date
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\refint\Negocios.dll
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\Negocios.pdb
+C:\Users\vvmejia\Desktop\CEF-365\Negocios\obj\Debug\net9.0\ref\Negocios.dll
+E:\Hoy15052025\CEF-365\Negocios\bin\Debug\net9.0\Negocios.deps.json
+E:\Hoy15052025\CEF-365\Negocios\bin\Debug\net9.0\Negocios.dll
+E:\Hoy15052025\CEF-365\Negocios\bin\Debug\net9.0\Negocios.pdb
+E:\Hoy15052025\CEF-365\Negocios\bin\Debug\net9.0\Datos.dll
+E:\Hoy15052025\CEF-365\Negocios\bin\Debug\net9.0\Entidades.dll
+E:\Hoy15052025\CEF-365\Negocios\bin\Debug\net9.0\Datos.pdb
+E:\Hoy15052025\CEF-365\Negocios\bin\Debug\net9.0\Entidades.pdb
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.AssemblyReference.cache
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfoInputs.cache
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfo.cs
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.CoreCompileInputs.cache
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.Up2Date
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.dll
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\refint\Negocios.dll
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\Negocios.pdb
+E:\Hoy15052025\CEF-365\Negocios\obj\Debug\net9.0\ref\Negocios.dll
+H:\CEF-365\Negocios\bin\Debug\net9.0\Negocios.deps.json
+H:\CEF-365\Negocios\bin\Debug\net9.0\Negocios.dll
+H:\CEF-365\Negocios\bin\Debug\net9.0\Negocios.pdb
+H:\CEF-365\Negocios\bin\Debug\net9.0\Datos.dll
+H:\CEF-365\Negocios\bin\Debug\net9.0\Entidades.dll
+H:\CEF-365\Negocios\bin\Debug\net9.0\Datos.pdb
+H:\CEF-365\Negocios\bin\Debug\net9.0\Entidades.pdb
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.AssemblyReference.cache
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.GeneratedMSBuildEditorConfig.editorconfig
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfoInputs.cache
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.AssemblyInfo.cs
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.CoreCompileInputs.cache
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.csproj.Up2Date
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.dll
+H:\CEF-365\Negocios\obj\Debug\net9.0\refint\Negocios.dll
+H:\CEF-365\Negocios\obj\Debug\net9.0\Negocios.pdb
+H:\CEF-365\Negocios\obj\Debug\net9.0\ref\Negocios.dll
