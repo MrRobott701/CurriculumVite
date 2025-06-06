@@ -2,8 +2,12 @@
 @using Entidades.DTO.CurriculumVite
 @using Servicios.IRepositorios.CurriculumVite
 @using Presentacion.Components.Shared
+@using Servicios.IRepositorios
+@using Entidades.DTO.CurriculumVite
+@using Entidades.Modelos.CurriculumVite
 @inject ISRepositorioExperiencia ExperienciaServicios
 @inject ISRepositorioDocumento DocumentoServicios
+@inject IDocumentRepository DocumentRepository
 @inject ISDocenteRepositorio DocenteServicios
 @inject IJSRuntime JSRuntime
 @inject NavigationManager NavigationManager
@@ -477,8 +481,56 @@
         {
             try
             {
+                // 1. Obtener todos los documentos asociados a la experiencia
+                var todosDocumentos = await DocumentoServicios.GetAllAsync();
+                var documentosExperiencia = todosDocumentos
+                    .Where(d => d.IdDocente == IdDocente && 
+                               !string.IsNullOrEmpty(d.Descripcion) && 
+                               d.Descripcion.Contains($"ID Experiencia: {ExperienciaAEliminar.IdExperiencia}"))
+                    .ToList();
+
+                // 2. Eliminar cada documento de Drive y de la base de datos
+                foreach (var documento in documentosExperiencia)
+                {
+                    if (!string.IsNullOrEmpty(documento.Url))
+                    {
+                        try
+                        {
+                            // Extraer el ID de Drive de la URL
+                            string? driveId = null;
+                            var uri = new Uri(documento.Url);
+                            if (uri.Host.Contains("drive.google.com"))
+                            {
+                                if (uri.AbsolutePath.Contains("/file/d/"))
+                                {
+                                    driveId = uri.AbsolutePath.Split("/file/d/")[1].Split('/')[0];
+                                }
+                                else if (uri.Query.Contains("id="))
+                                {
+                                    driveId = System.Web.HttpUtility.ParseQueryString(uri.Query).Get("id");
+                                }
+                            }
+
+                            // Eliminar de Drive si se encontró el ID
+                            if (!string.IsNullOrEmpty(driveId))
+                            {
+                                await DocumentRepository.EliminarDocumentoAsync(driveId);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            await JSRuntime.InvokeVoidAsync("console.error", $"Error al eliminar archivo de Drive: {ex.Message}");
+                            // Continuar con el siguiente documento
+                        }
+                    }
+
+                    // Eliminar el documento de la base de datos
+                    await DocumentoServicios.DeleteAsync(documento.IdDocumento);
+                }
+
+                // 3. Finalmente eliminar la experiencia
                 await ExperienciaServicios.DeleteAsync(ExperienciaAEliminar.IdExperiencia);
-                await JSRuntime.InvokeVoidAsync("alert", "Experiencia eliminada correctamente");
+                await JSRuntime.InvokeVoidAsync("alert", "Experiencia y documentos asociados eliminados exitosamente");
                 await CargarDatos();
             }
             catch (Exception ex)

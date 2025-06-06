@@ -33,8 +33,32 @@ namespace Datos.Repositorios.CurriculumVite
 
         public async Task UpdateAsync(E_Proyecto entity)
         {
-            _context.Proyectos.Update(entity);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var existingEntity = await _context.Proyectos.FindAsync(entity.IdProyecto);
+                if (existingEntity != null)
+                {
+                    // Desconectar la entidad existente del contexto
+                    _context.Entry(existingEntity).State = EntityState.Detached;
+                }
+
+                // Adjuntar la nueva entidad y marcarla como modificada
+                _context.Entry(entity).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!await ProyectoExists(entity.IdProyecto))
+                {
+                    throw new KeyNotFoundException($"No se encontró el proyecto con ID {entity.IdProyecto}");
+                }
+                throw;
+            }
+        }
+
+        private async Task<bool> ProyectoExists(int id)
+        {
+            return await _context.Proyectos.AnyAsync(e => e.IdProyecto == id);
         }
 
         public async Task DeleteAsync(int id)

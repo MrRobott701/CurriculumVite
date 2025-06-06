@@ -33,8 +33,31 @@ namespace Datos.Repositorios.CurriculumVite
 
         public async Task UpdateAsync(E_Experiencia entity)
         {
-            _context.Experiencias.Update(entity);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var existingEntity = await _context.Experiencias.FindAsync(entity.IdExperiencia);
+                if (existingEntity != null)
+                {
+                    // Desconectar la entidad existente del contexto
+                    _context.Entry(existingEntity).State = EntityState.Detached;
+                    
+                    // Adjuntar la nueva entidad y marcarla como modificada
+                    _context.Entry(entity).State = EntityState.Modified;
+                    await _context.SaveChangesAsync();
+                }
+                else
+                {
+                    throw new KeyNotFoundException($"No se encontró la experiencia con ID {entity.IdExperiencia}");
+                }
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!await ExperienciaExists(entity.IdExperiencia))
+                {
+                    throw new KeyNotFoundException($"No se encontró la experiencia con ID {entity.IdExperiencia}");
+                }
+                throw;
+            }
         }
 
         public async Task DeleteAsync(int id)
@@ -45,6 +68,11 @@ namespace Datos.Repositorios.CurriculumVite
                 _context.Experiencias.Remove(entity);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        private async Task<bool> ExperienciaExists(int id)
+        {
+            return await _context.Experiencias.AnyAsync(e => e.IdExperiencia == id);
         }
     }
 }
