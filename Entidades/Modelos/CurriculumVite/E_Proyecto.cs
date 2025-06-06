@@ -10,5 +10,7 @@ namespace Entidades.Modelos.CurriculumVite
         public string? Financiamiento { get; set; }
         public int? PeriodoInicio { get; set; }
         public int PeriodoFin { get; set; }
+        
+        // Sin navigation properties como en E_Educacion y E_Experiencia
     }
 }

@@ -11,5 +11,7 @@ namespace Entidades.Modelos.CurriculumVite
         public string? Pais { get; set; }
         public int? AnioInicio { get; set; }
         public int? AnioFin { get; set; }
+        
+        // Sin navigation properties como en E_Publicacion
     }
 }

@@ -11,9 +11,11 @@ namespace Entidades.Modelos.CurriculumVite
         public int? IdProyecto { get; set; }
         public int? IdTesis { get; set; }
         public int? IdEducacion { get; set; }
-        public string Titulo { get; set; } = null!;
+        public string? Titulo { get; set; }
         public string Url { get; set; } = null!;
         public string? Descripcion { get; set; }
         public DateTime FechaSubida { get; set; }
+        
+        // Sin navigation properties para evitar nombres automáticos de columnas
     }
 }

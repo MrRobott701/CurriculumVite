@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e/Yb93u+7lw=",
+  "dgSpecHash": "uEQ9IxQqhd4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jorge\\OneDrive\\Documents\\z.-UABC\\CEF-365\\Servicios\\Servicios.csproj",
+  "projectFilePath": "C:\\Users\\jorge\\Downloads\\best\\CurriculumVite-main\\Servicios\\Servicios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorge\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

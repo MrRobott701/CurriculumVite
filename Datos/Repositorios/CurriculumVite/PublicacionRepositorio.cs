@@ -33,8 +33,27 @@ namespace Datos.Repositorios.CurriculumVite
 
         public async Task UpdateAsync(E_Publicacion entity)
         {
-            _context.Publicaciones.Update(entity);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var existingEntity = await _context.Publicaciones.FindAsync(entity.IdPublicacion);
+                if (existingEntity != null)
+                {
+                    // Desconectar la entidad existente del contexto
+                    _context.Entry(existingEntity).State = EntityState.Detached;
+                }
+
+                // Adjuntar la nueva entidad y marcarla como modificada
+                _context.Entry(entity).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!await PublicacionExists(entity.IdPublicacion))
+                {
+                    throw new KeyNotFoundException($"No se encontró la publicación con ID {entity.IdPublicacion}");
+                }
+                throw;
+            }
         }
 
         public async Task DeleteAsync(int id)
@@ -45,6 +64,11 @@ namespace Datos.Repositorios.CurriculumVite
                 _context.Publicaciones.Remove(entity);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        private async Task<bool> PublicacionExists(int id)
+        {
+            return await _context.Publicaciones.AnyAsync(e => e.IdPublicacion == id);
         }
     }
 }

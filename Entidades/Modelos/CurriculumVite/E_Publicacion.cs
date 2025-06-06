@@ -9,6 +9,6 @@ namespace Entidades.Modelos.CurriculumVite
         public string? Autores { get; set; }
         public string? Fuente { get; set; }
         public int? Anio { get; set; }
-        public string Enlace { get; set; } = null!;
+        public string? Enlace { get; set; }
     }
 }

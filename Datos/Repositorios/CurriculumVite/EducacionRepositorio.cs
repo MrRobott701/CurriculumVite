@@ -33,8 +33,12 @@ namespace Datos.Repositorios.CurriculumVite
 
         public async Task UpdateAsync(E_Educacion entity)
         {
-            _context.Educaciones.Update(entity);
-            await _context.SaveChangesAsync();
+            var existingEntity = await _context.Educaciones.FindAsync(entity.IdEducacion);
+            if (existingEntity != null)
+            {
+                _context.Entry(existingEntity).CurrentValues.SetValues(entity);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task DeleteAsync(int id)
